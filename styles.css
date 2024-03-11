@@ -37,8 +37,11 @@ span{
     color: #fff;
     border: none;
 }
+
+
 .hero-h2{
     font-size: 3rem;
+    margin-left: 50px;
 }
 .hero-p{
     font-size: 2rem;
