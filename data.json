@@ -1,0 +1,15 @@
+{
+    "title": "---I am Nana Akosua.",
+    "subtitle1": "ui/ux designer/front-end developer",
+    "subtitle2": "I craft visually stunning interfaces and\nwrite clean, efficient code to create\nseamless user experiences.",
+    "button1": "Contact Me",
+    "button2": "My Works",
+    "image": "images/profile.png",
+    "socials": [
+      { "name": "Github", "url": "https://github.com/NanaOdamme", "icon": "<svg>...</svg>" },
+      { "name": "LinkedIn", "url": "http://www.linkedin.com/in/nana-akosua-odame-addae-3b5bb8206", "icon": "<svg>...</svg>" },
+      { "name": "Instagram", "url": "https://www.instagram.com/nanaodamme", "icon": "<svg>...</svg>" },
+      { "name": "Twitter", "url": "https://twitter.com/nanaodamme", "icon": "<svg>...</svg>" }
+    ]
+  }
+  

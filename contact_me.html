@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>sisco.com</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+              <a class="navbar-brand px-3" href="#"><h2>Nana Akosua</h2></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse  justify-content-end px-4" id="navbarNavAltMarkup">
+                
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link" href="#">About Me</a>
+                  <a class="nav-link" href="#">Portfolio</a>
+                  <a class="nav-link" href="#">Contact Me</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <section class="forms p-5">
+        <h1 class="text-center " style="color: rgb(234, 0, 255);">Send Us A Message</h1>
+        
+        <div class="container-md mt-5 p-5 border border-5 border-warning rounded-5">
+          <form id="contactForm">
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email:</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" name="email" aria-describedby="emailHelp" placeholder="example@gmail.com" required>
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+        
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Message:</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" name="message" rows="3" required></textarea>
+            </div>
+        
+            <button type="submit" class="btn btn-warning btn-lg mx-auto d-block px-5 mt-5">Send</button>
+
+        </form>
+        
+        </div>
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+    </html>

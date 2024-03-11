@@ -1,0 +1,168 @@
+
+.navbar-nav a {
+    transition: color 0.3s ease, transform 0.3s ease;
+    text-decoration: none;
+    color: #b000c7;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-left: 30px;
+  }
+
+  .navbar-nav a:hover {
+    color: #e492f4;
+    border-top: 3px solid #FF8DA6;
+    transform: scale(1.1);
+  }
+  
+span{
+    color:#cb69ff;
+}
+.butns{
+    padding: 50px;
+}
+
+.btn-hero1{
+    background-color: #fff;
+    padding: 10px;
+    border: 2px solid #000000;
+    color: #000000;
+    border-radius: 8px;
+    
+    
+}
+
+
+.btn-hero1:hover{
+    background-color: #FF8DA6;
+    color: #fff;
+    border: none;
+}
+.hero-h2{
+    font-size: 3rem;
+}
+.hero-p{
+    font-size: 2rem;
+    margin-left: 50px;
+}
+.hero-text{
+    font-size:1.2rem;
+    margin-left: 50px;
+}
+.row{
+    align-items: center;
+}
+
+.socials a {
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .socials a:hover {
+    color: #ffff08;
+    transform: scale(1.1);
+  }
+@media screen and (min-width:769px){
+    p{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (mix-width:769px){
+   hero{
+    padding: 2em;
+    text-align: center;
+
+   }
+}
+.socials{
+    background-color: #cb69ff;
+    
+}
+.socials a{
+    color: #fff;
+  text-decoration: none;
+}
+
+
+.about_me{
+    background-color: #fbf7ff;
+    color: #170a29;
+}
+.about_me h1{
+    font-weight: 800;
+    font-size: 2.4rem;
+}
+.cv{
+    background-color: transparent;
+    padding: 10px;
+    border: 2px solid #000000;
+    color: #000000;
+    border-radius: 5px;
+}
+
+.cv:hover{
+        background-color: #FF8DA6;
+        color: #fff;
+        border: none;
+    
+}
+
+
+.portfolio h1{
+     font-weight: 700;
+     color: #401158;
+}
+.portfolio .card {
+    transition: transform 0.3s ease;
+}
+.portfolio .card:hover {
+    background-color: #f9d5fa;
+    transition: background-color 0.5s ease;
+    transform: scale(1.05);
+  }
+
+footer{
+    background-color: #300645;
+}
+  .social-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+
+  .social-links svg:hover {
+    color: #ffff08;
+    transform: scale(1.1);
+  }
+
+  .footer-text {
+    color: #ccc;
+  }
+
+.skills .custom_img{
+
+        width: 30%;
+        height: 30%;
+}
+.skills h2{
+    color: #ffffff;
+    background-color: #c209da;
+    border-radius: 20px;
+}
+
+.hidden {
+    opacity: 0;
+    transition: all 1s;
+    filter: blur(3px);
+    transform: translate(-100%);
+
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
