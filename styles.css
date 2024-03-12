@@ -253,7 +253,7 @@ footer{
     border-radius: 5px;
     height: 40px;
     width: 150px;
-    margin-left: 90px;
+    margin-left: 80px;
 }
 
 .btn1:hover{
@@ -263,6 +263,6 @@ footer{
 }
 
 .checkbox{
-    font-size: 0.7rem;
+    
     color: #ff0037;
 }
