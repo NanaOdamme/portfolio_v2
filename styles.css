@@ -17,7 +17,7 @@ body{
   }
   
 span{
-    color:#cb69ff;
+    color: #ff849f;
 }
 .butns{
     padding: 50px;
@@ -90,7 +90,7 @@ span{
    }
 }
 .socials{
-    background-color: #cb69ff;
+    background-color: #ff6788;
     
 }
 .socials a{
@@ -160,7 +160,7 @@ span{
   }
 
 footer{
-    background-color: #300645;
+    background-color: #1e0a28;
 }
   .social-links a {
     text-decoration: none;
@@ -205,11 +205,16 @@ footer{
 }
 
 .contact-me{
-    background-color: rgba(254, 222, 222, 0.2);
+    background-color: #ca93e622;
     background-size: 100% 100%;
     width: 100%;
     height: auto;
 
+}
+
+.contact-me .card{
+   
+    border: 3px solid #edc200;
 }
 
 .head{
