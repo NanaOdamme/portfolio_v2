@@ -32,3 +32,23 @@ const observer = new IntersectionObserver((entries) => {
 const hiddenElements = document.querySelectorAll('.hidden');
 hiddenElements.forEach((el) => observer.observe(el));
 
+//popup
+function showPopup(col) {
+    var popup = document.getElementById("popup");
+    var popupContent = document.getElementById("popup-content-inner");
+
+    // Clear previous content
+    popupContent.innerHTML = "";
+
+    // Clone the content of the clicked column
+    var clone = col.cloneNode(true);
+    popupContent.appendChild(clone);
+
+    // Show the popup
+    popup.style.display = "block";
+}
+
+function closePopup() {
+    var popup = document.getElementById("popup");
+    popup.style.display = "none";
+}
