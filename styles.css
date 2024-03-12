@@ -104,6 +104,24 @@ span{
     font-weight: 800;
     font-size: 2.4rem;
 }
+.about-p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4; 
+    -webkit-box-orient: vertical;
+    margin-bottom: 0;
+}
+
+.read-more-button {
+    display: none;
+    cursor: pointer;
+    color: rgb(245, 151, 151);
+}
+
+.full-text {
+    -webkit-line-clamp: unset; /* Show all lines when the full-text class is applied */
+}
 .cv{
     background-color: transparent;
     padding: 10px;
