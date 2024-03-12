@@ -261,3 +261,8 @@ footer{
     -moz-box-shadow: -2px 0px 12px 3px rgba(255,141,166,1);
     box-shadow: -2px 0px 12px 3px rgba(255,141,166,1);
 }
+
+.checkbox{
+    font-size: 0.7rem;
+    color: #ff0037;
+}
