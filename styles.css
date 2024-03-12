@@ -1,11 +1,13 @@
-
+body{
+    overflow-x: hidden;
+}
 .navbar-nav a {
     transition: color 0.3s ease, transform 0.3s ease;
     text-decoration: none;
     color: #b000c7;
     font-weight: 600;
     font-size: 1.2rem;
-    margin-left: 30px;
+    margin-left: 20px;
   }
 
   .navbar-nav a:hover {
@@ -67,9 +69,13 @@ span{
     color: #ffff08;
     transform: scale(1.1);
   }
-@media screen and (min-width:769px){
+@media screen and (min-width:375px){
     p{
         font-size: 1rem;
+    }
+
+    .socials a{
+        font-size: 3px;
     }
 }
 
