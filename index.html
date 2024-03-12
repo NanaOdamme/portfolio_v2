@@ -233,6 +233,8 @@
 
       <section class="contact-me mt-5" id="contact">
         <div class="container-md py-5">
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="54a53885-24ac-4745-9aca-59f3cc24c134">
           <div class="row">
             <div class="col-lg-6 mx-auto">
               <div class="card">
@@ -244,10 +246,11 @@
                         </div>
                     </div>
                   </div>
+                  
                   <div class="form-group row mt-5 py-3">
                     <label for="name" class="col-sm-3 col-form-label">Name:</label>
                     <div class="col-sm-9"> 
-                      <input type="text" class="effect-1 p-2" id="name" placeholder="Your Name">
+                      <input name="name" type="text" class="effect-1 p-2" id="name" placeholder="Your Name" required>
                       <span class="Focus-border"></span>
                     </div>
                     
@@ -256,7 +259,7 @@
                   <div class="form-group row py-3">
                     <label for="email" class="col-sm-3 col-form-label">Email:</label>
                     <div class="col-sm-9">
-                        <input type="email" class="effect-1 p-2" id="email" placeholder="Your Email">
+                        <input name="email" type="email" class="effect-1 p-2" id="email" placeholder="Your Email" required>
                         <span class="Focus-border"></span>
                       </div>
                    </div>
@@ -280,7 +283,7 @@
               <div class="form-group row py-3">
                 <label for="message" class="col-sm-3 col-form-label">Message:</label>
                 <div class="col-sm-9">
-                    <textarea class="effect-1 p-2" id="message" rows="4" placeholder="Your Message"></textarea>
+                    <textarea name="message" class="effect-1 p-2" id="message" rows="4" placeholder="Your Message"></textarea>
                     <span class="Focus-border"></span>
                 </div>
             </div>
@@ -288,7 +291,7 @@
             <div class="form-group row py-3">
               <div class="col offset-sm-3">
                   <p class="checkbox">
-                      <input type="checkbox" class="form-check-input" id="notARobot">
+                      <input type="checkbox" class="form-check-input" id="notARobot" required>
                       I am not a Robot</p>
                   
               </div>
@@ -297,9 +300,12 @@
                   <button type="submit" class="btn1">Send Message</button>
               </div>
           </div>
+          
               </div>
             </div>
           </div>
+          </div>
+          </form>
         </div>
 
       </section>

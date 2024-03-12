@@ -241,7 +241,7 @@ footer{
 
 .effect-1:focus{
     transition: 0.5s;
-    border: 2px solid  #000000;
+    border: 2px solid  #edc200;
 
 }
 
@@ -266,3 +266,4 @@ footer{
     
     color: #ff0037;
 }
+
